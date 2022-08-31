@@ -1,8 +1,8 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+<p align="left">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="50" alt="Nest Logo" /></a>
 </p>
 
-# Teslo API
+# Emil-Challenge
 
 1. Clone Project
 2.
@@ -24,4 +24,13 @@ docker-compose up -d
 ```bash
 yarn start:dev
 ```
+
 # emil-challenge
+
+```bash
+yarn add bcrypt
+yarn add -D @types/bcrypt
+yarn add @nestjs/passport passport
+yarn add @nestjs/jwt passport-jwt
+yarn add -D @types/passport-jwt
+```
