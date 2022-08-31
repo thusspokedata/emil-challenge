@@ -7,7 +7,7 @@ export class Geoservice {
   @Column('float')
   latitude: number;
   @Column('float')
-  langitude: number;
-  @Column({ type: 'timestamp', nullable: true })
-  timestamp: Date;
+  longitude: number;
+  @Column({ type: 'timestamptz', default: () => 'CURRENT_TIMESTAMP' })
+  createDateTime: Date;
 }
