@@ -28,7 +28,7 @@ export class GeoserviceService {
   }
 
   findAll() {
-    return `This action returns all geoservice`;
+    return this.geoserviceRepository.find({});
   }
 
   private handleDBExceptions(error: any) {
