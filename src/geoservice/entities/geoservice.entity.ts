@@ -9,5 +9,5 @@ export class Geoservice {
   @Column('float')
   longitude: number;
   @Column({ type: 'timestamptz', default: () => 'CURRENT_TIMESTAMP' })
-  createDateTime: Date;
+  Timestamp: Date;
 }
